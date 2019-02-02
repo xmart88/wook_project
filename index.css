@@ -1,0 +1,292 @@
+html{
+    background:linear-gradient(to bottom,rgb(195,195,195), #fff);
+    background-repeat: no-repeat no-repeat;
+}
+
+body{
+    padding:0;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 0; 
+    width: 990px;
+    background-color: white;
+    align-self: auto;
+}
+#acordo{
+        position:absolute;
+        width: 0;
+        height: 850px;
+        float: left;
+        z-index: -1;
+}
+
+#coding{
+    position: absolute;
+    font-size:18    px;
+    font-weight: bold;
+    font-family: "OpenSans";
+    border-radius: 100%;
+    background: linear-gradient(red,white);
+    text-align: center;
+    margin-left:200px;
+    margin-top: 75px;
+    height: 150px;
+    width: 150px;
+    color:white;
+    padding: 40px;
+}
+#content{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+}
+#logo{
+    height: 100px;
+    margin:0;
+    float:left; 
+    
+}
+#search{
+    border: none;
+    width: 200px;
+    height:30px;
+    margin-top: 50px;
+    transition: 2s;
+}
+#search:hover{
+    width:400px;
+}
+#btn{
+    display: inline;
+    background: transparent;
+}
+.icones {
+    margin-bottom: 5px;
+    display: inline-block;
+    
+}
+.city{
+    border-radius: 0.2px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    height: 25px;
+    padding: 1px;
+    text-align: center
+}
+.fa-facebook-f {
+    margin-top: 55px;
+    font-size: 18px;
+    color: #AFB0B2;
+}
+.fa-twitter {
+    font-size: 18px;
+    color: #AFB0B2;
+}
+
+.fa-linkedin-in {
+    font-size: 18px;
+    color: #AFB0B2;
+}
+.fa-youtube {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #AFB0B2;
+}
+
+/*  Formatação menu  */
+
+nav#menu-topo{
+    width: 100%;
+    float:right;
+    border:1px solid rgb(195,195,195);
+
+}
+
+nav#menu-topo ul{
+    list-style: none;
+    float:right;
+    justify-content: space-around;
+}
+#right-main{
+    float:right;
+}
+h3{
+    display: inline;
+}
+
+.dropbtn {
+    align-items: stretch;
+    background-color:white;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #686f79;
+    min-width: 160px;
+    text-align: center;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #444a51;
+    color: white;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #1f253c;
+    color:white;
+}
+
+#brd{
+    width: 100%;
+    margin-left:10px;
+}
+#data{
+    margin:0px;
+    padding:0px;
+}
+.vertical-menu {
+    width: 240px;
+    float: left;
+    
+}
+.vertical-menu ul{
+    margin-left:0px;
+}
+.vertical-menu li{
+    list-style: none;
+    
+}
+.vertical-menu a {
+    background-color: #1f253c;
+    color: white;;
+    display: block;
+    padding: 9px;
+    text-decoration: none;
+    margin-left: 0;
+}
+
+.vertical-menu a:hover {
+    background-color: rgb(65,65,65);
+    color: rgb(0,157,224);
+    font-size:16px;
+    
+    
+}
+
+.vertical-menu a.active {
+    background-color: rgb(65,65,65);
+    color: rgb(0,157,224);
+}
+#side{
+    float:right;
+}
+
+#foto{
+    float: left;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: white;
+    padding:10px;
+    font-size:12px; 
+}
+
+#foto figure{
+    padding:10px;
+}
+#right-main{
+    background-color: white;
+    float: right;
+    
+}
+#form-size{
+    padding:10px;
+    float:right;
+    width: 280px;
+    height: 280px;
+    background-color: lightgrey;
+    font-size:12px;
+}
+
+#mid-section{
+    padding: 10px;
+    width: 100%;
+    
+}
+#destaque {
+    float: left;
+    width:20%;
+    background-color: white;
+    padding:20px;
+}
+#texto h1{
+    border:none;
+    padding-top: 75px;
+    width: 80%;
+    background-color: white;
+    float:right;
+    font-size:12px;
+}
+
+#texto-destaque{
+    display: inline-block;
+    border-top:1px dashed;
+    margin-right: 30px;
+
+    
+}
+
+#newsletter{
+    float:right;
+    margin-right: 135px;
+}
+#submeter{
+    background-color: none;
+    border:none;
+}
+#rodape{
+    float: left;
+    width: 100%;
+    height: 75px;
+    padding:10px;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 8px;
+}
+.cookies{
+    width:100%;
+    height:100px;
+    background-color: black;
+    color:white;
+    font-size: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+ ul{
+
+     margin:0;
+ }
